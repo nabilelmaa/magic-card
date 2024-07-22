@@ -44,10 +44,6 @@ export function CardDemo() {
     {
       text: "Say",
     },
-    {
-      text: "!",
-      className: "text-rose-500 dark:text-rose-500",
-    },
   ];
   return (
     <Card>
