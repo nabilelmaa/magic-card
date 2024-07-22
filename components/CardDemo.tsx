@@ -188,7 +188,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "max-w-sm w-full mx-auto p-8 rounded-xl dark:bg bg-black shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
+        "max-w-sm w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-black bg-black-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
         className
       )}
     >
@@ -205,7 +205,12 @@ export const CardTitle = ({
   className?: string;
 }) => {
   return (
-    <h3 className={cn("text-lg font-semibold text-white py-2", className)}>
+    <h3
+      className={cn(
+        "text-lg font-semibold text-gray-800 dark:text-white py-2",
+        className
+      )}
+    >
       {children}
     </h3>
   );
@@ -220,7 +225,10 @@ export const CardDescription = ({
 }) => {
   return (
     <p
-      className={cn("text-center text-sm font-normal text-neutral-400 max-w-sm mt-12", className)}
+      className={cn(
+        "text-center text-sm font-normal text-neutral-400 max-w-sm mt-12 dark:text-neutral-400",
+        className
+      )}
     >
       {children}
     </p>
