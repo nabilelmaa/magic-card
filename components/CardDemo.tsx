@@ -14,7 +14,7 @@ export function CardDemo() {
     },
     {
       text: "Hanae,",
-      className: "text-rose-500 dark:text-rose-500",
+      className: "text-white dark:text-rose-500",
     },
     {
       text: "I",
@@ -27,7 +27,7 @@ export function CardDemo() {
     },
     {
       text: "Sweetie",
-      className: "text-rose-500 dark:text-rose-500",
+      className: "text-white-500 dark:text-rose-500",
     },
     {
       text: "More",
