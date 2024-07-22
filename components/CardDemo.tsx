@@ -27,7 +27,7 @@ export function CardDemo() {
     },
     {
       text: "Sweetie",
-      className: "text-white-500 dark:text-rose-500",
+      className: "text-white dark:text-rose-500",
     },
     {
       text: "More",
@@ -188,7 +188,7 @@ export const Card = ({
   return (
     <div
       className={cn(
-        "max-w-sm w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-black bg-black-100 shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
+        "max-w-sm w-full mx-auto p-8 rounded-xl border border-[rgba(255,255,255,0.10)] dark:bg-black bg-black shadow-[2px_4px_16px_0px_rgba(248,248,248,0.06)_inset] group",
         className
       )}
     >
