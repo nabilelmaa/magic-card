@@ -8,43 +8,44 @@ import { TypewriterEffect } from "@/components/ui/typewriter-effect";
 import { ConfettiSideCannons } from "./ui/confetti-button";
 
 export function CardDemo() {
-  const words = [
-    {
-      text: "Dear",
-    },
-    {
-      text: "Hanae,",
-      className: "text-white dark:text-rose-500",
-    },
-    {
-      text: "I",
-    },
-    {
-      text: "Love",
-    },
-    {
-      text: "You",
-    },
-    {
-      text: "Sweetie",
-      className: "text-white dark:text-rose-500",
-    },
-    {
-      text: "More",
-    },
-    {
-      text: "Than",
-    },
-    {
-      text: "Words",
-    },
-    {
-      text: "Can",
-    },
-    {
-      text: "Say",
-    },
-  ];
+const words = [
+  {
+    text: "Every",
+  },
+  {
+    text: "Ending",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "Brings",
+  },
+  {
+    text: "A",
+  },
+  {
+    text: "New",
+  },
+  {
+    text: "Beginning.",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "Keep",
+  },
+  {
+    text: "Moving",
+  },
+  {
+    text: "Forward",
+  },
+  {
+    text: "With",
+  },
+  {
+    text: "Hope.",
+    className: "text-white dark:text-rose-500",
+  }
+];
   return (
     <Card>
       <CardSkeletonContainer>
