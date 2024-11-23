@@ -13,11 +13,8 @@ const words = [
     text: "The",
   },
   {
-    text: "heart,",
+    text: "heart",
     className: "text-white dark:text-rose-500",
-  },
-  {
-    text: "time,",
   },
   {
     text: "and",
@@ -50,105 +47,35 @@ const words = [
     text: "isn’t",
   },
   {
-    text: "one-sided,",
+    text: "one-sided.",
     className: "text-white dark:text-rose-500",
   },
   {
-    text: "and",
-  },
-  {
-    text: "it’s",
-  },
-  {
-    text: "wrong",
+    text: "Self-respect",
     className: "text-white dark:text-rose-500",
   },
   {
-    text: "to",
+    text: "means",
   },
   {
-    text: "keep",
-  },
-  {
-    text: "pouring",
+    text: "leaving",
     className: "text-white dark:text-rose-500",
   },
   {
-    text: "into",
-  },
-  {
-    text: "someone",
-  },
-  {
-    text: "who",
+    text: "what",
   },
   {
     text: "doesn’t",
-    className: "text-white dark:text-rose-500",
   },
   {
     text: "value",
-  },
-  {
-    text: "it.",
-  },
-  {
-    text: "What’s",
     className: "text-white dark:text-rose-500",
   },
   {
-    text: "deserved",
-  },
-  {
-    text: "is",
-  },
-  {
-    text: "someone",
-  },
-  {
-    text: "who",
-  },
-  {
-    text: "respects",
-    className: "text-white dark:text-rose-500",
-  },
-  {
-    text: "effort,",
-  },
-  {
-    text: "not",
-  },
-  {
-    text: "someone",
-  },
-  {
-    text: "who",
-  },
-  {
-    text: "overlooks",
-    className: "text-white dark:text-rose-500",
-  },
-  {
-    text: "it.",
-  },
-  {
-    text: "This",
-  },
-  {
-    text: "isn’t",
-  },
-  {
-    text: "hate;",
-    className: "text-white dark:text-rose-500",
-  },
-  {
-    text: "it’s",
-  },
-  {
-    text: "self-respect.",
-    className: "text-white dark:text-rose-500",
+    text: "you.",
   },
 ];
+
 
   return (
     <Card>
