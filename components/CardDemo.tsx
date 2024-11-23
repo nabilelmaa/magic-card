@@ -10,42 +10,146 @@ import { ConfettiSideCannons } from "./ui/confetti-button";
 export function CardDemo() {
 const words = [
   {
-    text: "Every",
+    text: "The",
   },
   {
-    text: "Ending",
+    text: "heart,",
     className: "text-white dark:text-rose-500",
   },
   {
-    text: "Brings",
+    text: "time,",
   },
   {
-    text: "A",
+    text: "and",
   },
   {
-    text: "New",
-  },
-  {
-    text: "Beginning.",
+    text: "trust",
     className: "text-white dark:text-rose-500",
   },
   {
-    text: "Keep",
+    text: "given",
   },
   {
-    text: "Moving",
+    text: "were",
   },
   {
-    text: "Forward",
-  },
-  {
-    text: "With",
-  },
-  {
-    text: "Hope.",
+    text: "taken",
     className: "text-white dark:text-rose-500",
-  }
+  },
+  {
+    text: "for",
+  },
+  {
+    text: "granted.",
+  },
+  {
+    text: "Love",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "isn’t",
+  },
+  {
+    text: "one-sided,",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "and",
+  },
+  {
+    text: "it’s",
+  },
+  {
+    text: "wrong",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "to",
+  },
+  {
+    text: "keep",
+  },
+  {
+    text: "pouring",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "into",
+  },
+  {
+    text: "someone",
+  },
+  {
+    text: "who",
+  },
+  {
+    text: "doesn’t",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "value",
+  },
+  {
+    text: "it.",
+  },
+  {
+    text: "What’s",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "deserved",
+  },
+  {
+    text: "is",
+  },
+  {
+    text: "someone",
+  },
+  {
+    text: "who",
+  },
+  {
+    text: "respects",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "effort,",
+  },
+  {
+    text: "not",
+  },
+  {
+    text: "someone",
+  },
+  {
+    text: "who",
+  },
+  {
+    text: "overlooks",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "it.",
+  },
+  {
+    text: "This",
+  },
+  {
+    text: "isn’t",
+  },
+  {
+    text: "hate;",
+    className: "text-white dark:text-rose-500",
+  },
+  {
+    text: "it’s",
+  },
+  {
+    text: "self-respect.",
+    className: "text-white dark:text-rose-500",
+  },
 ];
+
   return (
     <Card>
       <CardSkeletonContainer>
